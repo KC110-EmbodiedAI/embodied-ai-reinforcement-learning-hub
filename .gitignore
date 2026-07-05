@@ -1,0 +1,13 @@
+.DS_Store
+*.pptx
+*.ppt
+*.key
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+node_modules/
+qr/

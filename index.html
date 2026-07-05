@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="具身智能强化学习课程资源平台，面向学生提供学习路径、资料下载、教学演示和任务说明。"
+    />
+    <title>具身智能强化学习课程资源平台</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand-mark" href="#top" data-i18n="brand">Embodied AI Learning Hub</a>
+      <nav class="site-nav" aria-label="Section navigation">
+        <a href="#roadmap" data-i18n="navRoadmap">学习路径</a>
+        <a href="#resources" data-i18n="navResources">资源库</a>
+        <a href="#studio" data-i18n="navStudio">教学演示</a>
+        <a href="#downloads" data-i18n="navDownloads">下载中心</a>
+      </nav>
+      <button class="language-toggle" type="button" data-lang-toggle aria-pressed="false">
+        <span data-i18n="languageToggle">EN</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker" data-i18n="heroKicker">Course Resource Platform</p>
+          <h1 id="hero-title" data-i18n="heroTitle">具身智能强化学习课程资源平台</h1>
+          <p class="hero-summary" data-i18n="heroSummary">
+            为学生集中整理学习路线、实验资料、教学演示、下载入口和任务要求，支持从游戏仿真走向机器人控制与部署实践。
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button-link primary" href="#roadmap" data-i18n="heroPrimary">开始学习</a>
+            <a class="button-link secondary" href="#downloads" data-i18n="heroSecondary">查看下载</a>
+          </div>
+        </div>
+
+        <div class="learning-console" aria-label="Learning platform overview">
+          <div class="console-topbar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="console-grid">
+            <section class="console-panel active">
+              <p data-i18n="consoleRouteLabel">当前路线</p>
+              <h2 data-i18n="consoleRouteTitle">从仿真到部署</h2>
+              <div class="route-line" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </section>
+            <section class="console-panel">
+              <p data-i18n="consoleResourceLabel">资源状态</p>
+              <h2 data-i18n="consoleResourceTitle">讲义 / 代码 / 演示</h2>
+              <ul class="mini-list">
+                <li data-i18n="consoleResourceOne">实验手册待上传</li>
+                <li data-i18n="consoleResourceTwo">演示视频占位</li>
+                <li data-i18n="consoleResourceThree">评价量规预留</li>
+              </ul>
+            </section>
+            <section class="console-panel wide">
+              <p data-i18n="consoleTaskLabel">能力链</p>
+              <div class="ability-chain">
+                <span data-i18n="chainObserve">现象</span>
+                <span data-i18n="chainProblem">问题</span>
+                <span data-i18n="chainModel">建模</span>
+                <span data-i18n="chainTrain">训练</span>
+                <span data-i18n="chainDeploy">部署</span>
+                <span data-i18n="chainExplain">表达</span>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-labelledby="intro-title">
+        <div class="section-heading compact">
+          <p class="section-label" data-i18n="introLabel">For Students</p>
+          <h2 id="intro-title" data-i18n="introTitle">按课程学习流程组织的资源入口</h2>
+          <p data-i18n="introBody">
+            页面内容按学生使用场景组织：先知道要学什么，再找到资料，随后观看演示、下载文件并完成阶段任务。
+          </p>
+        </div>
+        <div class="quick-actions" aria-label="Student quick actions">
+          <a href="#roadmap" data-i18n="quickRoadmap">按路线学习</a>
+          <a href="#resources" data-i18n="quickResources">找课程资料</a>
+          <a href="#studio" data-i18n="quickStudio">看教学演示</a>
+          <a href="#downloads" data-i18n="quickDownloads">下载文件</a>
+        </div>
+      </section>
+
+      <section class="section roadmap-section" id="roadmap" aria-labelledby="roadmap-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="roadmapLabel">Learning Roadmap</p>
+            <h2 id="roadmap-title" data-i18n="roadmapTitle">四阶段学习路径</h2>
+          </div>
+          <p data-i18n="roadmapIntro">
+            路线来自课程材料中的实践主线：用逐步增加复杂度的任务，帮助学生把强化学习概念转化为可调试、可部署、可解释的工程能力。
+          </p>
+        </div>
+        <div class="roadmap" role="list">
+          <article class="roadmap-step" role="listitem">
+            <span class="step-index">01</span>
+            <h3 data-i18n="stageOneTitle">游戏仿真与奖励塑形</h3>
+            <p data-i18n="stageOneBody">
+              从可观察的游戏任务开始，理解状态、动作、奖励、失败现象和 MDP 建模。
+            </p>
+            <ul>
+              <li data-i18n="stageOneTask">任务：记录失败现象并修改奖励设计</li>
+              <li data-i18n="stageOneOutput">产出：任务建模说明与实验记录</li>
+            </ul>
+          </article>
+          <article class="roadmap-step" role="listitem">
+            <span class="step-index">02</span>
+            <h3 data-i18n="stageTwoTitle">四足机器人仿真控制</h3>
+            <p data-i18n="stageTwoBody">
+              进入连续控制问题，理解关节、动作空间、策略学习和仿真环境中的调参过程。
+            </p>
+            <ul>
+              <li data-i18n="stageTwoTask">任务：比较不同策略配置的训练表现</li>
+              <li data-i18n="stageTwoOutput">产出：训练曲线、调参记录与行为分析</li>
+            </ul>
+          </article>
+          <article class="roadmap-step" role="listitem">
+            <span class="step-index">03</span>
+            <h3 data-i18n="stageThreeTitle">Sim2Real 与部署验证</h3>
+            <p data-i18n="stageThreeBody">
+              关注仿真到真实系统的差异，建立风险清单、部署检查表和故障定位意识。
+            </p>
+            <ul>
+              <li data-i18n="stageThreeTask">任务：描述部署故障并提出排查路径</li>
+              <li data-i18n="stageThreeOutput">产出：Sim2Real 风险清单与验证记录</li>
+            </ul>
+          </article>
+          <article class="roadmap-step" role="listitem">
+            <span class="step-index">04</span>
+            <h3 data-i18n="stageFourTitle">证据化复盘与表达</h3>
+            <p data-i18n="stageFourBody">
+              从“结果展示”转向“证据说明”，用现象、问题、实验和改进解释自己的工程决策。
+            </p>
+            <ul>
+              <li data-i18n="stageFourTask">任务：整理学习证据并完成阶段汇报</li>
+              <li data-i18n="stageFourOutput">产出：复盘报告、演示说明与自评表</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section resources-section" id="resources" aria-labelledby="resources-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="resourcesLabel">Resource Library</p>
+            <h2 id="resources-title" data-i18n="resourcesTitle">课程资源库</h2>
+          </div>
+          <p data-i18n="resourcesIntro">
+            后续资料会按学生使用顺序补充。当前版本先建立分类、状态和下载入口，避免资料分散在聊天、课件和临时链接中。
+          </p>
+        </div>
+        <div class="resource-grid">
+          <article class="resource-item">
+            <div class="resource-type" data-i18n="resourceGuideType">Guide</div>
+            <h3 data-i18n="resourceGuideTitle">课前导学</h3>
+            <p data-i18n="resourceGuideBody">课程目标、学习路线、先修知识和推荐阅读。</p>
+            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+          </article>
+          <article class="resource-item">
+            <div class="resource-type" data-i18n="resourceLabType">Lab</div>
+            <h3 data-i18n="resourceLabTitle">实验手册</h3>
+            <p data-i18n="resourceLabBody">仿真任务、训练配置、实验记录模板和提交要求。</p>
+            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+          </article>
+          <article class="resource-item">
+            <div class="resource-type" data-i18n="resourceCodeType">Code</div>
+            <h3 data-i18n="resourceCodeTitle">代码模板</h3>
+            <p data-i18n="resourceCodeBody">环境配置、训练脚本、参数文件和运行说明。</p>
+            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+          </article>
+          <article class="resource-item">
+            <div class="resource-type" data-i18n="resourceRubricType">Rubric</div>
+            <h3 data-i18n="resourceRubricTitle">评价量规</h3>
+            <p data-i18n="resourceRubricBody">过程记录、工程解释、实验复盘和展示表达的评分标准。</p>
+            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section studio-section" id="studio" aria-labelledby="studio-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="studioLabel">Teaching Demo Studio</p>
+            <h2 id="studio-title" data-i18n="studioTitle">教学演示区</h2>
+          </div>
+          <p data-i18n="studioIntro">
+            演示区用于放置课堂讲解、训练过程、机器人仿真、部署验证和常见失败案例。当前只保留占位框，真实素材将在脱敏后补充。
+          </p>
+        </div>
+        <div class="demo-wall">
+          <article class="demo-item large">
+            <div class="demo-frame simulation">
+              <span data-i18n="demoFrameOne">Game Simulation</span>
+            </div>
+            <h3 data-i18n="demoOneTitle">游戏仿真任务演示</h3>
+            <p data-i18n="demoOneBody">展示任务目标、状态观察、奖励设计和失败行为。</p>
+          </article>
+          <article class="demo-item">
+            <div class="demo-frame robot">
+              <span data-i18n="demoFrameTwo">Quadruped Control</span>
+            </div>
+            <h3 data-i18n="demoTwoTitle">四足机器人控制演示</h3>
+            <p data-i18n="demoTwoBody">展示连续控制、训练过程和策略行为变化。</p>
+          </article>
+          <article class="demo-item">
+            <div class="demo-frame trace">
+              <span data-i18n="demoFrameThree">Training Trace</span>
+            </div>
+            <h3 data-i18n="demoThreeTitle">训练曲线与调试记录</h3>
+            <p data-i18n="demoThreeBody">展示实验对比、异常定位和参数调整过程。</p>
+          </article>
+          <article class="demo-item">
+            <div class="demo-frame deploy">
+              <span data-i18n="demoFrameFour">Deployment Check</span>
+            </div>
+            <h3 data-i18n="demoFourTitle">部署检查与风险说明</h3>
+            <p data-i18n="demoFourBody">展示仿真到真实系统时需要检查的风险点。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section workflow-section" aria-labelledby="workflow-title">
+        <div class="section-heading compact">
+          <p class="section-label" data-i18n="workflowLabel">Class Workflow</p>
+          <h2 id="workflow-title" data-i18n="workflowTitle">课堂任务流</h2>
+          <p data-i18n="workflowIntro">
+            每次实验建议围绕同一条证据链提交：先描述现象，再提出问题，随后给出建模、实验、部署和表达证据。
+          </p>
+        </div>
+        <ol class="workflow-list">
+          <li>
+            <strong data-i18n="workflowOneTitle">观察现象</strong>
+            <span data-i18n="workflowOneBody">记录策略失败、训练异常或部署不稳定。</span>
+          </li>
+          <li>
+            <strong data-i18n="workflowTwoTitle">定位问题</strong>
+            <span data-i18n="workflowTwoBody">判断问题来自奖励、观测、动作、环境还是系统差异。</span>
+          </li>
+          <li>
+            <strong data-i18n="workflowThreeTitle">设计实验</strong>
+            <span data-i18n="workflowThreeBody">提出可比较的实验设置和预期观察指标。</span>
+          </li>
+          <li>
+            <strong data-i18n="workflowFourTitle">复盘表达</strong>
+            <span data-i18n="workflowFourBody">用证据解释改动原因、结果变化和下一步计划。</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section downloads-section" id="downloads" aria-labelledby="downloads-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="downloadsLabel">Download Center</p>
+            <h2 id="downloads-title" data-i18n="downloadsTitle">下载中心</h2>
+          </div>
+          <p data-i18n="downloadsIntro">
+            这里将成为学生获取课程文件的固定入口。当前仓库只包含目录说明，真实文件请在确认公开范围后加入。
+          </p>
+        </div>
+        <div class="download-table" role="table" aria-label="Download center">
+          <div class="download-row header" role="row">
+            <div role="columnheader" data-i18n="downloadColOne">资源</div>
+            <div role="columnheader" data-i18n="downloadColTwo">用途</div>
+            <div role="columnheader" data-i18n="downloadColThree">状态</div>
+            <div role="columnheader" data-i18n="downloadColFour">入口</div>
+          </div>
+          <div class="download-row" role="row">
+            <div role="cell" data-i18n="downloadGuide">学习路线说明</div>
+            <div role="cell" data-i18n="downloadGuideUse">帮助学生理解课程阶段和提交要求</div>
+            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
+            <div role="cell"><a href="materials/README.md" data-i18n="downloadIndex">资料目录</a></div>
+          </div>
+          <div class="download-row" role="row">
+            <div role="cell" data-i18n="downloadLab">实验手册</div>
+            <div role="cell" data-i18n="downloadLabUse">用于课堂实验、课后复现和阶段提交</div>
+            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
+            <div role="cell"><span class="muted" data-i18n="downloadLater">后续补充</span></div>
+          </div>
+          <div class="download-row" role="row">
+            <div role="cell" data-i18n="downloadCode">代码与配置</div>
+            <div role="cell" data-i18n="downloadCodeUse">用于环境搭建、训练运行和参数实验</div>
+            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
+            <div role="cell"><span class="muted" data-i18n="downloadLater">后续补充</span></div>
+          </div>
+          <div class="download-row" role="row">
+            <div role="cell" data-i18n="downloadRubric">评价表与模板</div>
+            <div role="cell" data-i18n="downloadRubricUse">用于过程记录、复盘报告和课堂展示</div>
+            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
+            <div role="cell"><span class="muted" data-i18n="downloadLater">后续补充</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerTitle">Embodied AI Learning Hub</p>
+      <p data-i18n="footerNote">
+        面向学生的课程资源平台。当前版本不包含个人信息或未公开图片、视频素材。
+      </p>
+    </footer>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
