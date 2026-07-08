@@ -90,8 +90,8 @@
       demoTwoBody: "展示连续控制、训练过程和策略行为变化。",
       demoThreeTitle: "训练曲线与调试记录",
       demoThreeBody: "展示实验对比、异常定位和参数调整过程。",
-      demoFourTitle: "部署检查与风险说明",
-      demoFourBody: "展示仿真到真实系统时需要检查的风险点。",
+      demoFourTitle: "实机部署比赛现场视频",
+      demoFourBody: "展示比赛现场的实机部署、运行过程和验证表现。",
       workflowLabel: "Class Workflow",
       workflowTitle: "课堂任务流",
       workflowIntro:
@@ -216,8 +216,8 @@
       demoTwoBody: "Show continuous control, training progress, and policy behavior changes.",
       demoThreeTitle: "Training curves and debugging logs",
       demoThreeBody: "Show experiment comparisons, anomaly diagnosis, and parameter updates.",
-      demoFourTitle: "Deployment checklist and risk notes",
-      demoFourBody: "Show risk points when moving from simulation to real systems.",
+      demoFourTitle: "On-site competition deployment video",
+      demoFourBody: "Show the real-machine deployment, run, and validation performance at the competition site.",
       workflowLabel: "Class Workflow",
       workflowTitle: "Class task workflow",
       workflowIntro:

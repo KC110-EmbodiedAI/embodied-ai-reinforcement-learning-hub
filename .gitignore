@@ -6,6 +6,12 @@
 *.mov
 *.avi
 *.mkv
+!materials/videos/
+!materials/videos/game-simulation-demo.mp4
+!materials/videos/quadruped-control-demo.mp4
+!materials/videos/quadruped-control-demo-h264.mp4
+!materials/videos/quadruped-control-demo-poster.jpg
+!materials/videos/sim2real-deployment-demo.mp4
 *.zip
 *.tar
 *.tar.gz
