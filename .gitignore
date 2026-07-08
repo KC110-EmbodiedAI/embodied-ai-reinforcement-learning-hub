@@ -14,7 +14,7 @@
 !materials/videos/sim2real-deployment-demo.mp4
 *.zip
 !materials/downloads/
-!materials/downloads/learning-roadmap.pptx
+!materials/downloads/learning-roadmap.pdf
 !materials/downloads/platform-docs-scoring.zip
 !materials/downloads/lab-manual.docx
 !materials/downloads/code-and-config.zip
