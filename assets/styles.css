@@ -488,6 +488,11 @@ h2 {
   background: rgba(199, 148, 63, 0.16);
 }
 
+.resource-status.available {
+  color: #0d6b4d;
+  background: rgba(36, 156, 139, 0.14);
+}
+
 .demo-wall {
   display: grid;
   grid-template-columns: 1fr;

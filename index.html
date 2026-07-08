@@ -57,11 +57,12 @@
             </section>
             <section class="console-panel">
               <p data-i18n="consoleResourceLabel">资源状态</p>
-              <h2 data-i18n="consoleResourceTitle">讲义 / 代码 / 演示</h2>
+              <h2 data-i18n="consoleResourceTitle">路线 / 手册 / 代码 / 评价</h2>
               <ul class="mini-list">
-                <li data-i18n="consoleResourceOne">实验手册待上传</li>
-                <li data-i18n="consoleResourceTwo">演示视频占位</li>
-                <li data-i18n="consoleResourceThree">评价量规预留</li>
+                <li data-i18n="consoleResourceOne">学习路线说明</li>
+                <li data-i18n="consoleResourceTwo">实验手册</li>
+                <li data-i18n="consoleResourceThree">代码与配置</li>
+                <li data-i18n="consoleResourceFour">评价表与模板</li>
               </ul>
             </section>
             <section class="console-panel wide">
@@ -159,34 +160,31 @@
             <p class="section-label" data-i18n="resourcesLabel">Resource Library</p>
             <h2 id="resources-title" data-i18n="resourcesTitle">课程资源库</h2>
           </div>
-          <p data-i18n="resourcesIntro">
-            后续资料会按学生使用顺序补充。当前版本先建立分类、状态和下载入口，避免资料分散在聊天、课件和临时链接中。
-          </p>
         </div>
         <div class="resource-grid">
           <article class="resource-item">
             <div class="resource-type" data-i18n="resourceGuideType">Guide</div>
             <h3 data-i18n="resourceGuideTitle">课前导学</h3>
             <p data-i18n="resourceGuideBody">课程目标、学习路线、先修知识和推荐阅读。</p>
-            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+            <span class="resource-status available" data-i18n="statusReady">已上传</span>
           </article>
           <article class="resource-item">
             <div class="resource-type" data-i18n="resourceLabType">Lab</div>
             <h3 data-i18n="resourceLabTitle">实验手册</h3>
             <p data-i18n="resourceLabBody">仿真任务、训练配置、实验记录模板和提交要求。</p>
-            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+            <span class="resource-status available" data-i18n="statusReady">已上传</span>
           </article>
           <article class="resource-item">
             <div class="resource-type" data-i18n="resourceCodeType">Code</div>
             <h3 data-i18n="resourceCodeTitle">代码模板</h3>
             <p data-i18n="resourceCodeBody">环境配置、训练脚本、参数文件和运行说明。</p>
-            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+            <span class="resource-status available" data-i18n="statusReady">已上传</span>
           </article>
           <article class="resource-item">
             <div class="resource-type" data-i18n="resourceRubricType">Rubric</div>
             <h3 data-i18n="resourceRubricTitle">评价量规</h3>
             <p data-i18n="resourceRubricBody">过程记录、工程解释、实验复盘和展示表达的评分标准。</p>
-            <span class="resource-status pending" data-i18n="statusPending">待上传</span>
+            <span class="resource-status available" data-i18n="statusReady">已上传</span>
           </article>
         </div>
       </section>
@@ -197,9 +195,6 @@
             <p class="section-label" data-i18n="studioLabel">Teaching Demo Studio</p>
             <h2 id="studio-title" data-i18n="studioTitle">教学演示区</h2>
           </div>
-          <p data-i18n="studioIntro">
-            演示区用于放置课堂讲解、训练过程、机器人仿真、部署验证和常见失败案例。当前只保留占位框，真实素材将在脱敏后补充。
-          </p>
         </div>
         <div class="demo-wall">
           <article class="demo-item large">
@@ -269,9 +264,6 @@
             <p class="section-label" data-i18n="downloadsLabel">Download Center</p>
             <h2 id="downloads-title" data-i18n="downloadsTitle">下载中心</h2>
           </div>
-          <p data-i18n="downloadsIntro">
-            这里将成为学生获取课程文件的固定入口。当前仓库只包含目录说明，真实文件请在确认公开范围后加入。
-          </p>
         </div>
         <div class="download-table" role="table" aria-label="Download center">
           <div class="download-row header" role="row">
@@ -283,26 +275,32 @@
           <div class="download-row" role="row">
             <div role="cell" data-i18n="downloadGuide">学习路线说明</div>
             <div role="cell" data-i18n="downloadGuideUse">帮助学生理解课程阶段和提交要求</div>
-            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
-            <div role="cell"><a href="materials/README.md" data-i18n="downloadIndex">资料目录</a></div>
+            <div role="cell"><span class="resource-status available" data-i18n="statusReady">已上传</span></div>
+            <div role="cell"><a href="materials/downloads/learning-roadmap.pptx" data-i18n="downloadFile">下载文件</a></div>
+          </div>
+          <div class="download-row" role="row">
+            <div role="cell" data-i18n="downloadPlatformDocs">平台文档与计分细则</div>
+            <div role="cell" data-i18n="downloadPlatformDocsUse">用于了解比赛平台、赛场信息、阶段规则和计分标准</div>
+            <div role="cell"><span class="resource-status available" data-i18n="statusReady">已上传</span></div>
+            <div role="cell"><a href="materials/downloads/platform-docs-scoring.zip" data-i18n="downloadFile">下载文件</a></div>
           </div>
           <div class="download-row" role="row">
             <div role="cell" data-i18n="downloadLab">实验手册</div>
             <div role="cell" data-i18n="downloadLabUse">用于课堂实验、课后复现和阶段提交</div>
-            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
-            <div role="cell"><span class="muted" data-i18n="downloadLater">后续补充</span></div>
+            <div role="cell"><span class="resource-status available" data-i18n="statusReady">已上传</span></div>
+            <div role="cell"><a href="materials/downloads/lab-manual.docx" data-i18n="downloadFile">下载文件</a></div>
           </div>
           <div class="download-row" role="row">
             <div role="cell" data-i18n="downloadCode">代码与配置</div>
             <div role="cell" data-i18n="downloadCodeUse">用于环境搭建、训练运行和参数实验</div>
-            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
-            <div role="cell"><span class="muted" data-i18n="downloadLater">后续补充</span></div>
+            <div role="cell"><span class="resource-status available" data-i18n="statusReady">已上传</span></div>
+            <div role="cell"><a href="materials/downloads/code-and-config.zip" data-i18n="downloadFile">下载文件</a></div>
           </div>
           <div class="download-row" role="row">
             <div role="cell" data-i18n="downloadRubric">评价表与模板</div>
             <div role="cell" data-i18n="downloadRubricUse">用于过程记录、复盘报告和课堂展示</div>
-            <div role="cell"><span class="resource-status pending" data-i18n="statusPending">待上传</span></div>
-            <div role="cell"><span class="muted" data-i18n="downloadLater">后续补充</span></div>
+            <div role="cell"><span class="resource-status available" data-i18n="statusReady">已上传</span></div>
+            <div role="cell"><a href="materials/downloads/rubric-and-templates.pdf" data-i18n="downloadFile">下载文件</a></div>
           </div>
         </div>
       </section>
