@@ -15,7 +15,7 @@
 *.zip
 !materials/downloads/
 !materials/downloads/learning-roadmap.pdf
-!materials/downloads/platform-docs-scoring.zip
+!materials/downloads/platform-docs-evaluation.zip
 !materials/downloads/lab-manual.docx
 !materials/downloads/code-and-config.zip
 !materials/downloads/rubric-and-templates.pdf

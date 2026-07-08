@@ -2,7 +2,7 @@
 
 This repository hosts a public static course platform for students learning embodied AI and reinforcement learning.
 
-The site is not organized as a competition-facing showcase. It is organized as a student-facing hub for:
+The site is organized as a student-facing hub for:
 
 - learning roadmap;
 - course resource index;
